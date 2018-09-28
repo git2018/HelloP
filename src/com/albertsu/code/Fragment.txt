@@ -1,0 +1,10 @@
+package &package&;
+
+import &base&.BaseFragment;
+
+/*
+ * Created by AlbertSu at &Time&.
+ */
+
+public class &Fragment& extends BaseFragment<&Presenter&> implements &Contract&.IView {
+}

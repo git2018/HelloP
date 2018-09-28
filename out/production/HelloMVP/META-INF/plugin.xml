@@ -1,0 +1,37 @@
+<idea-plugin>
+  <id>cn.wswin.plugin.mvp</id>
+  <name>com.albertsu.MVPPlugin</name>
+  <version>1.0</version>
+  <vendor email="albertsu@foxmail.com" url="http://www.winsoft.cn">浙江万赛软件科技有限公司</vendor>
+
+  <description><![CDATA[
+      快速构建MVP架构<br>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      万赛办公微助手项目专版<br>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="winsoft.mvp" class="com.albertsu.MVPPlugin" text="winsoft mvp creator" description="万赛办公微助手项目专版" icon="/icon.png">
+      <add-to-group group-id="NewGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt M"/>
+    </action>
+  </actions>
+
+</idea-plugin>

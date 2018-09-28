@@ -1,0 +1,19 @@
+package &package&;
+
+import &base&.BaseContract;
+
+/*
+ * Created by AlbertSu at &Time&.
+ */
+
+class &Contract& {
+
+    interface IModel extends BaseContract.IModel {
+    }
+
+    interface IView extends BaseContract.IView {
+    }
+
+    interface IPresenter extends BaseContract.IPresenter<IView> {
+    }
+}

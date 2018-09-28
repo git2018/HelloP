@@ -1,0 +1,10 @@
+package &package&;
+
+import &base&.BasePresent;
+
+/*
+ * Created by AlbertSu at &Time&.
+ */
+
+public class &Presenter& extends BasePresent<&Contract&.IView> implements &Contract&.IPresenter {
+}
